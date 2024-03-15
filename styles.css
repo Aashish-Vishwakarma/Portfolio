@@ -1,0 +1,86 @@
+/* Resetting some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* General styles */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  header, footer, section {
+    padding: 50px 0;
+  }
+  
+  /* Header styles */
+  header {
+    background: #060d0f;
+    color: #fff;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style: none;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #ff00d9;
+    text-decoration: none;
+  }
+  
+  /* Section styles */
+  section {
+    background: #e1cdcd;
+  }
+  
+  /* Project styles */
+  .project {
+    background: #f1fdb4e9;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  /* Footer styles */
+  footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+  }
+  
+  /* Form styles */
+  form input,
+  form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  form button {
+    background: #0c0404d7;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background: #555;
+  }
+  
